@@ -28,6 +28,19 @@ class Siswa extends Migration
 				'type'           => 'ENUM',
                 'constraint'     => ['Laki-laki','Perempuan']
 			],
+			'tl'      	 => [
+				'type'           => 'TEXT'
+			],
+			'tgl'      	 => [
+				'type'           => 'DATE'
+			],
+			'alamat'      	 => [
+				'type'           => 'TEXT'
+			],
+			'telp'      	 => [
+				'type'           => 'VARCHAR',
+				'constraint'     => '15'
+			],
 			'keterangan'      	 => [
 				'type'           => 'TEXT'
 			]

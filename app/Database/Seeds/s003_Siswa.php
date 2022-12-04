@@ -15,6 +15,10 @@ class s003_Siswa extends Seeder
 				'nis' => '2022-2323001',
                 'nama_siswa' => 'Yunita Fitriani',
                 'jenis_kelamin' => 'Perempuan',
+                'tl' => 'Ciamis',
+                'tgl' => '1996-02-24',
+                'alamat' => '-',
+                'telp' => '00xxx',
                 'keterangan' => 'Jurusan TKJ'
             ],
 			[
@@ -22,6 +26,10 @@ class s003_Siswa extends Seeder
 				'nis' => '2022-2323002',
                 'nama_siswa' => 'Andika Pratama',
                 'jenis_kelamin' => 'Laki-laki',
+                'tl' => 'Ciamis',
+                'tgl' => '1996-02-24',
+                'alamat' => '-',
+                'telp' => '00xxx',
                 'keterangan' => 'Jurusan TKJ'
             ],
 			[
@@ -29,6 +37,10 @@ class s003_Siswa extends Seeder
 				'nis' => '2022-2323003',
                 'nama_siswa' => 'Antonio Siahaan',
                 'jenis_kelamin' => 'Laki-laki',
+                'tl' => 'Ciamis',
+                'tgl' => '1996-02-24',
+                'alamat' => '-',
+                'telp' => '00xxx',
                 'keterangan' => 'Jurusan RPL'
             ],
 			[
@@ -36,6 +48,10 @@ class s003_Siswa extends Seeder
 				'nis' => '2022-2323004',
                 'nama_siswa' => 'Nagita Silanina',
                 'jenis_kelamin' => 'Perempuan',
+                'tl' => 'Ciamis',
+                'tgl' => '1996-02-24',
+                'alamat' => '-',
+                'telp' => '00xxx',
                 'keterangan' => 'Jurusan RPL'
             ],
 		];
