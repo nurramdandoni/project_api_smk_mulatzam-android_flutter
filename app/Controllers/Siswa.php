@@ -88,4 +88,21 @@ class Siswa extends ResourceController
             return $this->failNotFound('Data tidak ditemukan.');
         }
     }
+
+    public function biodata($id = null){
+        $model = new SiswaModel();
+        $data = $model->select('*')
+        ->from('siswa a')
+        ->join('kartu_rencana_studi b','a.id_siswa=b.id_siswa')
+        ->join('kartu_rencana_studi_detail c','b.id_kartu_rencana_studi=c.id_kartu_rencana_studi')
+        ->join('kelas d','c.id_kelas=d.id_kelas')
+        ->join('jurusan e','d.id_jurusan=e.id_jurusan')
+        ->where('a.id_siswa', $id)
+        ->first();
+        if ($data) {
+            return $this->respond($data);
+        } else {
+            return $this->failNotFound('Data tidak ditemukan.');
+        }
+    }
 }

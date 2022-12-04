@@ -52,6 +52,7 @@ $routes->resource('absen');
 $routes->resource('nilai');
 // logic application control
 $routes->post('/login','logic::login');
+$routes->get('/biodataSiswa/(:segment)','siswa::biodata/$1');
 
 /*
  * --------------------------------------------------------------------
